@@ -644,6 +644,11 @@ nlu:
     - puede decirme como realizar un retiro parcial ?
     - Por motivos de fuerza mayor quiero dejar de llevar un curso, ¿qué debo hacer?
     - Podría indicarme el procedimiento para realizar el retiro parcial para el presente ciclo?
+    - PODRÍA   INDICARME EL PROCEDIMIENTO PARA REALIZAR EL RETIRO PARCIAL    PARA EL PRESENTE CICLO?
+    - PODRÍA INDICARME EL procedimiento PARA REALIZAR EL RETIRO PARCIAL PARA EL PRESENTE CICLO?
+    - PODRÍA INDICARME EL PROCEDIMIENTO, PARA REALIZAR EL RETIRO PARCIAL PARA EL PRESENTE CICLO?
+    - me puede indicar cual es el procedimiento de retiro parcial
+    - cual es el procedimiento de retiro parcial
 - intent: consulta_retiro_parcial_fechas
   examples: |
     - Hasta cuándo puedo hacerlo?
@@ -1269,3 +1274,4 @@ nlu:
 - intent: fuera_de_alcance
   examples: |
     - Quiero saber mis notas
+    - como me comunico con una persona
