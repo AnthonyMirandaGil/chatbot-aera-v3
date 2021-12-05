@@ -5,6 +5,8 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- solicitar_asistencia:
+    use_entities: true
 - consulta_horario_cursos:
     use_entities: true
 - out_of_scope:
@@ -575,6 +577,8 @@ responses:
   - text: Disculpe no puedo ayudarle más, por favor comuniquese directamente con AERA para una atencion especial o mande un correo explicando su problema estadistica_fc@uni.edu.pe.
   utter_informar_verificacion_requsistos_matricula_y_formulario:
   - text: Le sugiero primero descartar el estar registrado(a) con deuda en el sistema (materiales, económica o de tutoría), segundo haber realizado el pago de autoseguro como mínimo 72 horas de anticipación a su matrícula, si no está en ninguno de los 02 casos, registre su reclamo en el formulario "problema de matrícula"
+  utter_informar_contacto_aera:
+  - text: 'La informacion de contacto la puede encontras en el siguiente enlace: https://fc.uni.edu.pe/estadistica/'
 actions:
 - action_question_answering_system
 forms: {}
