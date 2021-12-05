@@ -33,6 +33,7 @@ nlu:
     - hola amigo
     - hola que tal ciencito
     - Hi
+    - Holis
 - intent: consulta_posibilidad_medida_adicional
   examples: |
     - no hay nada mas que hacer entonces
@@ -411,6 +412,8 @@ nlu:
     - hasta que hora atiende la oficina de estadistica
     - a que hora abre la oficina de estadistica
     - desde que hora atiende la oficina la estadistica
+    - Cual es el horario de estadistica?
+    - Quiero saber el horario de estadistica
 - intent: consulta_formato_solicitud_reserva_matricula
   examples: |
     - hay algun formato para la solicitud de reserva de matricula ?
@@ -1028,6 +1031,7 @@ nlu:
     - ¿Cómo se realiza el retiro total?
     - Puedo retirarme de todos los cursos?
     - El retiro total se hace virtual?
+    - Quiero retirarme
 - intent: consulta_retiro_total_fechas
   examples: |
     - Hasta cuando puedo presentar los documentos?
@@ -1252,3 +1256,16 @@ nlu:
     - cuantos es 2 mas 2
     - Quien es el presidente
     - que dia es hoy
+- intent: solicitar_asistencia
+  examples: |
+    - me puedes ayudar porfavaor tengo una duda
+    - Quiero ayuda
+- intent: nlu_fallback
+  examples: |
+    - -
+    - h
+    - .
+    - H
+- intent: fuera_de_alcance
+  examples: |
+    - Quiero saber mis notas
